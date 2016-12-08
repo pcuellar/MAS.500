@@ -1,0 +1,13 @@
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:root:This is a debug message
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/sentences/count with {'q': '( hillary AND clinton)', 'fq': ['publish_date:[2016-10-07T00:00:00Z TO 2016-10-14T00:00:00Z}', 'tags_id_media:1'], 'split': 0, 'split_daily': 0}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/sentences/count?q=%28+hillary+AND+clinton%29&fq=publish_date%3A%5B2016-10-07T00%3A00%3A00Z+TO+2016-10-14T00%3A00%3A00Z%7D&fq=tags_id_media%3A1&split=0&key=48d9fd877527e6c8c5ff25553c124b1634b8b2926310e2d259d6518221e2a5f2&split_daily=0 HTTP/1.1" 200 15
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/sentences/count with {'q': '( donald AND trump)', 'fq': ['publish_date:[2016-10-07T00:00:00Z TO 2016-10-14T00:00:00Z}', 'tags_id_media:1'], 'split': 0, 'split_daily': 0}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/sentences/count?q=%28+donald+AND+trump%29&fq=publish_date%3A%5B2016-10-07T00%3A00%3A00Z+TO+2016-10-14T00%3A00%3A00Z%7D&fq=tags_id_media%3A1&split=0&key=48d9fd877527e6c8c5ff25553c124b1634b8b2926310e2d259d6518221e2a5f2&split_daily=0 HTTP/1.1" 200 15
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/wc/list with {'fq': ['publish_date:[2016-10-07T00:00:00Z TO 2016-10-14T00:00:00Z}', 'tags_id_media:1'], 'l': 'en', 'q': '( donald AND trump)', 'sample_size': 1000, 'include_stopwords': 0, 'include_stats': 0, 'num_words': 500}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/wc/list?fq=publish_date%3A%5B2016-10-07T00%3A00%3A00Z+TO+2016-10-14T00%3A00%3A00Z%7D&fq=tags_id_media%3A1&l=en&q=%28+donald+AND+trump%29&sample_size=1000&include_stopwords=0&key=48d9fd877527e6c8c5ff25553c124b1634b8b2926310e2d259d6518221e2a5f2&include_stats=0&num_words=500 HTTP/1.1" 200 22553
