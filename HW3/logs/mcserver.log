@@ -1,0 +1,275 @@
+INFO:root:Starting the MediaCloud example Flask app!
+INFO:root:Starting the MediaCloud example Flask app!
+INFO:root:Starting the MediaCloud example Flask app!
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting the MediaCloud example Flask app!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 212-724-114
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2016 17:36:41] "GET / HTTP/1.1" 200 -
+INFO:root:Starting the MediaCloud example Flask app!
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting the MediaCloud example Flask app!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 212-724-114
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/sentences/count with {'fq': ['publish_date:[2015-09-01T00:00:00Z TO 2016-04-01T00:00:00Z}', 'media_sets_id:1'], 'split_start_date': u'2015-09-01', 'split_end_date': u'2016-04-01', 'q': u'trump', 'split': 1, 'split_daily': 0}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/sentences/count?fq=publish_date%3A%5B2015-09-01T00%3A00%3A00Z+TO+2016-04-01T00%3A00%3A00Z%7D&fq=media_sets_id%3A1&split_start_date=2015-09-01&split_end_date=2016-04-01&q=trump&split=1&key=48d9fd877527e6c8c5ff25553c124b1634b8b2926310e2d259d6518221e2a5f2&split_daily=0 HTTP/1.1" 200 957
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2016 17:38:48] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/pedro-reynolds-cuellar/GitHub/MAS.500/MediaCloud-Flask-Example-master/mcserver.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting the MediaCloud example Flask app!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 212-724-114
+INFO:werkzeug: * Detected change in '/Users/pedro-reynolds-cuellar/GitHub/MAS.500/MediaCloud-Flask-Example-master/mcserver.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting the MediaCloud example Flask app!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 212-724-114
+INFO:root:Starting the MediaCloud example Flask app!
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting the MediaCloud example Flask app!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 212-724-114
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/sentences/count with {'fq': ['publish_date:[2015-09-01T00:00:00Z TO 2016-04-01T00:00:00Z}', 'media_sets_id:1'], 'split_start_date': u'2015-09-01', 'split_end_date': u'2016-04-01', 'q': u'trump', 'split': 1, 'split_daily': 0}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/sentences/count?fq=publish_date%3A%5B2015-09-01T00%3A00%3A00Z+TO+2016-04-01T00%3A00%3A00Z%7D&fq=media_sets_id%3A1&split_start_date=2015-09-01&split_end_date=2016-04-01&q=trump&split=1&key=48d9fd877527e6c8c5ff25553c124b1634b8b2926310e2d259d6518221e2a5f2&split_daily=0 HTTP/1.1" 200 957
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2016 17:39:55] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/pedro-reynolds-cuellar/GitHub/MAS.500/MediaCloud-Flask-Example-master/mcserver.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting the MediaCloud example Flask app!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 212-724-114
+INFO:werkzeug: * Detected change in '/Users/pedro-reynolds-cuellar/GitHub/MAS.500/MediaCloud-Flask-Example-master/mcserver.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting the MediaCloud example Flask app!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 212-724-114
+INFO:root:Starting the MediaCloud example Flask app!
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting the MediaCloud example Flask app!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 212-724-114
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/sentences/count with {'fq': ['publish_date:[2015-09-01T00:00:00Z TO 2016-04-01T00:00:00Z}', 'media_sets_id:1'], 'split_start_date': u'2015-09-01', 'split_end_date': u'2016-04-01', 'q': u'trump', 'split': 1, 'split_daily': 0}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/sentences/count?fq=publish_date%3A%5B2015-09-01T00%3A00%3A00Z+TO+2016-04-01T00%3A00%3A00Z%7D&fq=media_sets_id%3A1&split_start_date=2015-09-01&split_end_date=2016-04-01&q=trump&split=1&key=48d9fd877527e6c8c5ff25553c124b1634b8b2926310e2d259d6518221e2a5f2&split_daily=0 HTTP/1.1" 200 957
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2016 17:41:05] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/pedro-reynolds-cuellar/GitHub/MAS.500/MediaCloud-Flask-Example-master/mcserver.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting the MediaCloud example Flask app!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 212-724-114
+INFO:werkzeug: * Detected change in '/Users/pedro-reynolds-cuellar/GitHub/MAS.500/MediaCloud-Flask-Example-master/mcserver.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting the MediaCloud example Flask app!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 212-724-114
+INFO:root:Starting the MediaCloud example Flask app!
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting the MediaCloud example Flask app!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 212-724-114
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/sentences/count with {'fq': ['publish_date:[2015-09-01T00:00:00Z TO 2016-04-01T00:00:00Z}', 'media_sets_id:1'], 'split_start_date': u'2015-09-01', 'split_end_date': u'2016-04-01', 'q': u'trump', 'split': 1, 'split_daily': 0}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/sentences/count?fq=publish_date%3A%5B2015-09-01T00%3A00%3A00Z+TO+2016-04-01T00%3A00%3A00Z%7D&fq=media_sets_id%3A1&split_start_date=2015-09-01&split_end_date=2016-04-01&q=trump&split=1&key=48d9fd877527e6c8c5ff25553c124b1634b8b2926310e2d259d6518221e2a5f2&split_daily=0 HTTP/1.1" 200 957
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2016 17:43:08] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/pedro-reynolds-cuellar/GitHub/MAS.500/MediaCloud-Flask-Example-master/mcserver.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting the MediaCloud example Flask app!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 212-724-114
+INFO:werkzeug: * Detected change in '/Users/pedro-reynolds-cuellar/GitHub/MAS.500/MediaCloud-Flask-Example-master/mcserver.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting the MediaCloud example Flask app!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 212-724-114
+INFO:werkzeug: * Detected change in '/Users/pedro-reynolds-cuellar/GitHub/MAS.500/MediaCloud-Flask-Example-master/mcserver.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting the MediaCloud example Flask app!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 212-724-114
+INFO:root:Starting the MediaCloud example Flask app!
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting the MediaCloud example Flask app!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 212-724-114
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2016 08:58:40] "GET / HTTP/1.1" 200 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/sentences/count with {'fq': ['publish_date:[2015-09-01T00:00:00Z TO 2016-04-01T00:00:00Z}', 'media_sets_id:1'], 'split_start_date': u'2015-09-01', 'split_end_date': u'2016-04-01', 'q': u'trump', 'split': 1, 'split_daily': 0}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/sentences/count?fq=publish_date%3A%5B2015-09-01T00%3A00%3A00Z+TO+2016-04-01T00%3A00%3A00Z%7D&fq=media_sets_id%3A1&split_start_date=2015-09-01&split_end_date=2016-04-01&q=trump&split=1&key=48d9fd877527e6c8c5ff25553c124b1634b8b2926310e2d259d6518221e2a5f2&split_daily=0 HTTP/1.1" 200 957
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2016 08:58:57] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/pedro-reynolds-cuellar/GitHub/MAS.500/MediaCloud-Flask-Example-master/mcserver.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting the MediaCloud example Flask app!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 212-724-114
+INFO:root:Starting the MediaCloud example Flask app!
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting the MediaCloud example Flask app!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 212-724-114
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/sentences/count with {'fq': ['publish_date:[2015-09-01T00:00:00Z TO 2016-04-01T00:00:00Z}', 'media_sets_id:1'], 'split_start_date': u'2015-09-01', 'split_end_date': u'2016-04-01', 'q': u'trump', 'split': 1, 'split_daily': 0}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/sentences/count?fq=publish_date%3A%5B2015-09-01T00%3A00%3A00Z+TO+2016-04-01T00%3A00%3A00Z%7D&fq=media_sets_id%3A1&split_start_date=2015-09-01&split_end_date=2016-04-01&q=trump&split=1&key=48d9fd877527e6c8c5ff25553c124b1634b8b2926310e2d259d6518221e2a5f2&split_daily=0 HTTP/1.1" 200 957
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2016 09:00:57] "POST /search HTTP/1.1" 200 -
+INFO:root:Starting the MediaCloud example Flask app!
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting the MediaCloud example Flask app!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 212-724-114
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2016 09:06:36] "GET / HTTP/1.1" 200 -
+INFO:root:Starting the MediaCloud example Flask app!
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting the MediaCloud example Flask app!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 212-724-114
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2016 14:49:42] "GET / HTTP/1.1" 200 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/sentences/count with {'fq': ['publish_date:[2015-09-01T00:00:00Z TO 2016-04-01T00:00:00Z}', 'media_sets_id:1'], 'split_start_date': u'2015-09-01', 'split_end_date': u'2016-04-01', 'q': u'trump', 'split': 1, 'split_daily': 0}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/sentences/count?fq=publish_date%3A%5B2015-09-01T00%3A00%3A00Z+TO+2016-04-01T00%3A00%3A00Z%7D&fq=media_sets_id%3A1&split_start_date=2015-09-01&split_end_date=2016-04-01&q=trump&split=1&key=48d9fd877527e6c8c5ff25553c124b1634b8b2926310e2d259d6518221e2a5f2&split_daily=0 HTTP/1.1" 200 957
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2016 14:49:52] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/pedro-reynolds-cuellar/GitHub/MAS.500/MediaCloud-Flask-Example-master/mcserver.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting the MediaCloud example Flask app!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 212-724-114
+INFO:root:Starting the MediaCloud example Flask app!
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting the MediaCloud example Flask app!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 212-724-114
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/sentences/count with {'fq': ['publish_date:[2015-09-01T00:00:00Z TO 2016-04-01T00:00:00Z}', 'media_sets_id:1'], 'split_start_date': u'2015-09-01', 'split_end_date': u'2016-04-01', 'q': u'trump', 'split': 1, 'split_daily': 0}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/sentences/count?fq=publish_date%3A%5B2015-09-01T00%3A00%3A00Z+TO+2016-04-01T00%3A00%3A00Z%7D&fq=media_sets_id%3A1&split_start_date=2015-09-01&split_end_date=2016-04-01&q=trump&split=1&key=48d9fd877527e6c8c5ff25553c124b1634b8b2926310e2d259d6518221e2a5f2&split_daily=0 HTTP/1.1" 200 957
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2016 14:50:41] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/pedro-reynolds-cuellar/GitHub/MAS.500/MediaCloud-Flask-Example-master/mcserver.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting the MediaCloud example Flask app!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 212-724-114
+INFO:root:Starting the MediaCloud example Flask app!
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting the MediaCloud example Flask app!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 212-724-114
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/sentences/count with {'fq': ['publish_date:[2015-09-01T00:00:00Z TO 2016-04-01T00:00:00Z}', 'media_sets_id:1'], 'split_start_date': u'2015-09-01', 'split_end_date': u'2016-04-01', 'q': u'trump', 'split': 1, 'split_daily': 0}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/sentences/count?fq=publish_date%3A%5B2015-09-01T00%3A00%3A00Z+TO+2016-04-01T00%3A00%3A00Z%7D&fq=media_sets_id%3A1&split_start_date=2015-09-01&split_end_date=2016-04-01&q=trump&split=1&key=48d9fd877527e6c8c5ff25553c124b1634b8b2926310e2d259d6518221e2a5f2&split_daily=0 HTTP/1.1" 200 957
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2016 14:51:35] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/pedro-reynolds-cuellar/GitHub/MAS.500/MediaCloud-Flask-Example-master/mcserver.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting the MediaCloud example Flask app!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 212-724-114
+INFO:root:Starting the MediaCloud example Flask app!
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting the MediaCloud example Flask app!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 212-724-114
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/sentences/count with {'fq': ['publish_date:[2015-09-01T00:00:00Z TO 2016-04-01T00:00:00Z}', 'media_sets_id:1'], 'split_start_date': u'2015-09-01', 'split_end_date': u'2016-04-01', 'q': u'trump', 'split': 1, 'split_daily': 0}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/sentences/count?fq=publish_date%3A%5B2015-09-01T00%3A00%3A00Z+TO+2016-04-01T00%3A00%3A00Z%7D&fq=media_sets_id%3A1&split_start_date=2015-09-01&split_end_date=2016-04-01&q=trump&split=1&key=48d9fd877527e6c8c5ff25553c124b1634b8b2926310e2d259d6518221e2a5f2&split_daily=0 HTTP/1.1" 200 957
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2016 14:52:21] "POST /search HTTP/1.1" 200 -
+INFO:root:Starting the MediaCloud example Flask app!
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting the MediaCloud example Flask app!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 212-724-114
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2016 15:24:32] "POST /search HTTP/1.1" 400 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2016 15:24:37] "GET / HTTP/1.1" 200 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/sentences/count with {'fq': ['publish_date:[2015-09-01T00:00:00Z TO 2016-04-01T00:00:00Z}', 'media_sets_id:1'], 'split_start_date': u'2015-09-01', 'split_end_date': u'2016-04-01', 'q': u'trump', 'split': 1, 'split_daily': 0}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/sentences/count?fq=publish_date%3A%5B2015-09-01T00%3A00%3A00Z+TO+2016-04-01T00%3A00%3A00Z%7D&fq=media_sets_id%3A1&split_start_date=2015-09-01&split_end_date=2016-04-01&q=trump&split=1&key=48d9fd877527e6c8c5ff25553c124b1634b8b2926310e2d259d6518221e2a5f2&split_daily=0 HTTP/1.1" 200 957
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2016 15:24:41] "POST /search HTTP/1.1" 200 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/sentences/count with {'fq': ['publish_date:[2015-09-01T00:00:00Z TO 2016-04-01T00:00:00Z}', 'media_sets_id:1'], 'split_start_date': u'2015-09-01', 'split_end_date': u'2016-04-01', 'q': u'trump', 'split': 1, 'split_daily': 0}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/sentences/count?fq=publish_date%3A%5B2015-09-01T00%3A00%3A00Z+TO+2016-04-01T00%3A00%3A00Z%7D&fq=media_sets_id%3A1&split_start_date=2015-09-01&split_end_date=2016-04-01&q=trump&split=1&key=48d9fd877527e6c8c5ff25553c124b1634b8b2926310e2d259d6518221e2a5f2&split_daily=0 HTTP/1.1" 200 957
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2016 15:24:42] "POST /search HTTP/1.1" 200 -
+INFO:root:Starting the MediaCloud example Flask app!
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting the MediaCloud example Flask app!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 212-724-114
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/sentences/count with {'fq': ['publish_date:[2015-09-01T00:00:00Z TO 2016-04-01T00:00:00Z}', 'media_sets_id:1'], 'split_start_date': u'2015-09-01', 'split_end_date': u'2016-04-01', 'q': u'trump', 'split': 1, 'split_daily': 0}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/sentences/count?fq=publish_date%3A%5B2015-09-01T00%3A00%3A00Z+TO+2016-04-01T00%3A00%3A00Z%7D&fq=media_sets_id%3A1&split_start_date=2015-09-01&split_end_date=2016-04-01&q=trump&split=1&key=48d9fd877527e6c8c5ff25553c124b1634b8b2926310e2d259d6518221e2a5f2&split_daily=0 HTTP/1.1" 200 957
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2016 15:26:20] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/pedro-reynolds-cuellar/GitHub/MAS.500/MediaCloud-Flask-Example-master/mcserver.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting the MediaCloud example Flask app!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 212-724-114
+INFO:root:Starting the MediaCloud example Flask app!
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting the MediaCloud example Flask app!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 212-724-114
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/sentences/count with {'fq': ['publish_date:[2015-09-01T00:00:00Z TO 2016-04-01T00:00:00Z}', 'media_sets_id:1'], 'split_start_date': u'2015-09-01', 'split_end_date': u'2016-04-01', 'q': u'trump', 'split': 1, 'split_daily': 0}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/sentences/count?fq=publish_date%3A%5B2015-09-01T00%3A00%3A00Z+TO+2016-04-01T00%3A00%3A00Z%7D&fq=media_sets_id%3A1&split_start_date=2015-09-01&split_end_date=2016-04-01&q=trump&split=1&key=48d9fd877527e6c8c5ff25553c124b1634b8b2926310e2d259d6518221e2a5f2&split_daily=0 HTTP/1.1" 200 957
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2016 15:26:39] "POST /search HTTP/1.1" 200 -
+INFO:root:Starting the MediaCloud example Flask app!
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting the MediaCloud example Flask app!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 212-724-114
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2016 15:29:51] "GET / HTTP/1.1" 200 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/sentences/count with {'fq': ['publish_date:[2015-09-01T00:00:00Z TO 2016-04-01T00:00:00Z}', 'media_sets_id:1'], 'split_start_date': u'2015-09-01', 'split_end_date': u'2016-04-01', 'q': u'trump', 'split': 1, 'split_daily': 0}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/sentences/count?fq=publish_date%3A%5B2015-09-01T00%3A00%3A00Z+TO+2016-04-01T00%3A00%3A00Z%7D&fq=media_sets_id%3A1&split_start_date=2015-09-01&split_end_date=2016-04-01&q=trump&split=1&key=48d9fd877527e6c8c5ff25553c124b1634b8b2926310e2d259d6518221e2a5f2&split_daily=0 HTTP/1.1" 200 957
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2016 15:29:57] "POST /search HTTP/1.1" 200 -
+INFO:root:Starting the MediaCloud example Flask app!
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting the MediaCloud example Flask app!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 212-724-114
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2016 15:51:10] "GET / HTTP/1.1" 200 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/sentences/count with {'fq': ['publish_date:[2015-09-01T00:00:00Z TO 2016-04-01T00:00:00Z}', 'media_sets_id:1'], 'split_start_date': u'2015-09-01', 'split_end_date': u'2016-04-01', 'q': u'trump', 'split': 1, 'split_daily': 0}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/sentences/count?fq=publish_date%3A%5B2015-09-01T00%3A00%3A00Z+TO+2016-04-01T00%3A00%3A00Z%7D&fq=media_sets_id%3A1&split_start_date=2015-09-01&split_end_date=2016-04-01&q=trump&split=1&key=48d9fd877527e6c8c5ff25553c124b1634b8b2926310e2d259d6518221e2a5f2&split_daily=0 HTTP/1.1" 200 957
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2016 15:51:14] "POST /search HTTP/1.1" 200 -
+INFO:root:Starting the MediaCloud example Flask app!
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting the MediaCloud example Flask app!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 212-724-114
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2016 15:54:51] "GET / HTTP/1.1" 200 -
+INFO:root:Starting the MediaCloud example Flask app!
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting the MediaCloud example Flask app!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 212-724-114
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2016 16:33:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2016 16:33:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2016 16:34:48] "GET / HTTP/1.1" 200 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/sentences/count with {'fq': ['publish_date:[2015-05-01T00:00:00Z TO 2016-04-01T00:00:00Z}', 'media_sets_id:1'], 'split_start_date': '2015-05-01', 'split_end_date': '2016-04-01', 'q': u'trump', 'split': 1, 'split_daily': 0}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/sentences/count?fq=publish_date%3A%5B2015-05-01T00%3A00%3A00Z+TO+2016-04-01T00%3A00%3A00Z%7D&fq=media_sets_id%3A1&split_start_date=2015-05-01&split_end_date=2016-04-01&q=trump&split=1&key=48d9fd877527e6c8c5ff25553c124b1634b8b2926310e2d259d6518221e2a5f2&split_daily=0 HTTP/1.1" 200 1415
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2016 16:34:52] "POST /search HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2016 16:36:25] "GET / HTTP/1.1" 200 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/sentences/count with {'fq': ['publish_date:[2015-05-01T00:00:00Z TO 2016-04-01T00:00:00Z}', 'media_sets_id:1'], 'split_start_date': '2015-05-01', 'split_end_date': '2016-04-01', 'q': u'trump', 'split': 1, 'split_daily': 0}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/sentences/count?fq=publish_date%3A%5B2015-05-01T00%3A00%3A00Z+TO+2016-04-01T00%3A00%3A00Z%7D&fq=media_sets_id%3A1&split_start_date=2015-05-01&split_end_date=2016-04-01&q=trump&split=1&key=48d9fd877527e6c8c5ff25553c124b1634b8b2926310e2d259d6518221e2a5f2&split_daily=0 HTTP/1.1" 200 1415
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2016 16:36:30] "POST /search HTTP/1.1" 200 -
+DEBUG:mediacloud.api:query GET to https://api.mediacloud.org/api/v2/sentences/count with {'fq': ['publish_date:[2015-05-01T00:00:00Z TO 2016-04-01T00:00:00Z}', 'media_sets_id:1'], 'split_start_date': '2015-05-01', 'split_end_date': '2016-04-01', 'q': u'trump', 'split': 1, 'split_daily': 0}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /api/v2/sentences/count?fq=publish_date%3A%5B2015-05-01T00%3A00%3A00Z+TO+2016-04-01T00%3A00%3A00Z%7D&fq=media_sets_id%3A1&split_start_date=2015-05-01&split_end_date=2016-04-01&q=trump&split=1&key=48d9fd877527e6c8c5ff25553c124b1634b8b2926310e2d259d6518221e2a5f2&split_daily=0 HTTP/1.1" 200 1415
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2016 16:38:38] "POST /search HTTP/1.1" 200 -

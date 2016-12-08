@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+
+{% block title %}Search Results{% endblock %}
+
+{% block content %}
+<!-- Code partially taken from https://stackoverflow.com/questions/27126224/highcharts-not-showing-up -->
+<head>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script src="http://code.highcharts.com/highcharts.js"></script>
+  <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+  <script>
+      $(function () {
+      Highcharts.chart('container', {
+          chart: {
+              type: 'line'
+          },
+          title: {
+              text: 'Data Plot'
+          },
+          subtitle: {
+              text: 'Courtesy of MediaCloud'
+          },
+          xAxis: {
+              categories: [{{ xAxis|safe }}]
+          },
+          yAxis: {
+              title: {
+                  text: 'Total Counts'
+              }
+          },
+          plotOptions: {
+              line: {
+                  dataLabels: {
+                      enabled: true
+                  },
+                  enableMouseTracking: false
+              }
+          },
+          series: [{
+              name: 'Counts',
+              data: [{{ ySeries }}]
+          }]
+      });
+  });
+  </script>
+</head>
+
+<div class="row">
+
+  <div class="col-md-12">
+
+    <h3>Search Results</h3>
+
+    <p>You searched for "{{keywords}}"</p>
+
+    <p>In the US Mainstream Media online there have {{ sentenceCount }} sentences matching your search so far this year.</p>
+
+  </div>
+
+</div>
+
+<body>
+    <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+</body>
+
+{% endblock %}
